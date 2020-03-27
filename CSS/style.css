@@ -8,6 +8,15 @@ body{
 h1,h2,h3,h4,li,ul{
     padding: 0px;
     margin: 0px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.tc{
+    text-align: center;
+    padding-top: 40px;
+
 }
 
 li{
@@ -30,7 +39,7 @@ li{
     
 }
 .navbarcustom li{
-    margin: 10px 40px;
+    margin: 20px 40px;
 
 
     font-family: -apple-system, BlinkMacSystemFont,
@@ -39,9 +48,12 @@ li{
 }
 
 .navbarcustom a{
-    padding: 7px;
+    padding: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+.navbarcustom a:hover{
+    color:rgb(134, 134, 134) ;
 }
 
 
@@ -57,7 +69,7 @@ li{
 
 
 /***** FOOTER  *****/
-footer{
+.footer{
     background: rgba(52, 58, 64, 1);
     height: 270px;
 
@@ -68,13 +80,33 @@ footer{
     background-color: #212529;
     height: 85px;
     display: flex;
+    color:#adb5bd;
+    border: red solid 1px;
   
     
 }
 .card-footer{
-    border: red solid 1px;
-    height: 150px;
+    
+    height: 200px;    
+
+   
+}
+.card-footer a{
+   
+   color: white;
+}
+.card-footer h3{
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom:10px ;
+    text-decoration: none;
     
 }
+
+.card-footer h3 a{
+    text-decoration: none;
+}
+
+
 
 /***** FOOTER  FIM *****/
